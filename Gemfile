@@ -8,9 +8,6 @@ gem 'twitter-bootstrap-rails'
 gem 'sprockets-rails', '~> 3.2'
 gem 'mustache-js-rails', '~> 0.0.7'
 
-# Workarounds for https://github.com/jruby/warbler/issues/430
-# bundler must be < 1.16
-gem 'bundler', '~> 1.15.3'
 # jruby-jars must be < 9.2
 gem 'jruby-jars', '~> 9.1.14'
 
@@ -63,7 +60,7 @@ else
 
   gem 'sqlite3'
   gem 'mysql2'
-  gem 'pg'
+  gem 'pg', '~> 0.18'
 end
 
 # Gems used only for assets and not required
