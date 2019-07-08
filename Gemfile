@@ -59,7 +59,7 @@ else
   gem 'therubyracer', '~> 0.12.2'
 
   gem 'sqlite3'
-  gem 'mysql2'
+  gem 'mysql2', '>= 0.3.18', '< 0.5'
   gem 'pg', '~> 0.18'
 end
 
